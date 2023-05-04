@@ -1,0 +1,75 @@
+body {
+	font-family: Arial, sans-serif;
+}
+#pic{
+	padding-right: 30px;
+}
+
+header {
+	background-color: lightslategray ;
+	color: whitesmoke;
+	padding: 20px;
+	height: 230px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color :blue;
+}
+
+section {
+	margin: 20px;
+}
+
+section h2 {background-color: khaki;
+	color: black;
+}
+
+form label {
+	display: inline-block;
+	width: 100px;
+}
+
+form input[type=text], form input[type=email], form textarea {
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+form input[type=submit] {
+	background-color: blue;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding-bottom: 0.5%;
+
+}
+h3{
+	text-align: center;
+}
+#map{
+	padding-left: 33%;
+}
+
+
+
