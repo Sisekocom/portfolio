@@ -6,7 +6,7 @@ body {
 }
 
 header {
-	background-color: lightslategray ;
+	background-image: url(kokok.webp) ;
 	color: whitesmoke;
 	padding: 20px;
 	height: 230px;
@@ -49,27 +49,49 @@ form label {
 	width: 100px;
 }
 
-form input[type=text], form input[type=email], form textarea {
-	padding: 5px;
-	margin-bottom: 10px;
-}
-
-form input[type=submit] {
-	background-color: blue;
-	color: white;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	padding-bottom: 0.5%;
-
-}
 h3{
 	text-align: center;
 }
 #map{
 	padding-left: 33%;
 }
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:  lightblue;
+  padding: 20px;
+}
+
+footer{
+	background-color: lightblue;
+	
+}
+h3{
+	background-color: lawngreen;
+}
